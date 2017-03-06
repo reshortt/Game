@@ -64,8 +64,6 @@ public class Player extends GameObject {
         if (dy < -14)
             dy=-14;
 
-//        if (++printCount % 10000 == 0)
-//            System.out.println("Y = " + y  + ", dy=" + dy +", dya= " + dya);
         y+= dy*2;
         //dy=0;
     }
